@@ -1,0 +1,62 @@
+.vip-customer-main {
+  background-color: #0d0d0d;
+  padding: 60px 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.vip-customer-our h2 {
+  font-size: 22px;
+  color: #ccc;
+  margin-bottom: 40px;
+  font-weight: 400;
+}
+
+.vip-customer-our span {
+  color: #BC9B73;
+  font-weight: 600;
+}
+
+.vip-inner-website {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* KEY PART: White logo by default, original color on hover */
+.vip-logo {
+  max-width: 100%;
+  height: auto;
+  filter: grayscale(100%) brightness(1.2); /* gray look */
+  opacity: 0.6; /* similar to #999999 effect */
+  transition: filter 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
+}
+
+.vip-logo:hover {
+  filter: none;
+  opacity: 1;
+}
+
+
+
+
+/* Responsive grid */
+@media (max-width: 1024px) {
+  .vip-inner-website {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .vip-inner-website {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .vip-customer-our h2 {
+    font-size: 18px;
+  }
+}
