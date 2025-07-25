@@ -1,6 +1,7 @@
 import React from 'react'
 import './FourZeroFour.css'
-import { errorimg } from '../../Utils/images'
+import { errorimg } from '../../utils/images'
+
 
 const FourZeroFour = () => {
   return (
