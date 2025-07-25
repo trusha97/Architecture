@@ -1,7 +1,7 @@
 import React from 'react'
 import "./WhatClientSay.css";
 import Slider from "react-slick";
-import { quite } from '../../Utils/images';
+import { quite } from '../../utils/images';
 
 const testimonials = [
     {
