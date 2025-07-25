@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ic_header_logo, } from '../../Utils/svg';
-import './header.css';
+import './Header.css';
 import { callplus, downarrow } from '../../Utils/images';
 
 const Header = () => {

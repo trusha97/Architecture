@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './loader.css';
+import './Loader.css';
 import { ic_header_logo } from '../../Utils/svg'; // Replace with your actual logo component or SVG
 
 const Loader = () => {
