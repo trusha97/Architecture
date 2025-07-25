@@ -2,12 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@100..900&display=swap");
 
 .project-mind-div-main {
-    background-color: #101010;
-    padding: 200px 0 0;
+  background-color: #101010;
+  padding: 100px 0 0;
 }
 .project-mind-main {
   width: 100%;
-  /* min-height: 100vh; */
+  min-height: 63vh;
   position: relative;
   display: flex;
   align-items: center;
@@ -25,47 +25,65 @@
   z-index: 0;
 }
 
-.overlay {
+.overlay1 {
   color: white;
-  max-width: 800px;
-  padding: 20px;
   z-index: 1;
+  margin-bottom: 200px;
 }
 
 .top-text {
   color: #bc9b73;
-  font-size: 16px;
+  font-size: 24px;
   letter-spacing: 2px;
   font-family: "DM Sans", sans-serif;
-  margin-bottom: 16px;
   text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 10px;
 }
 
 .heading {
   font-family: "DM Sans", sans-serif;
-  font-size: 64px;
+  font-size: 100px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1em;
   margin-bottom: 32px;
+  margin: 0;
 }
 
 .contact-button {
-  padding: 12px 28px;
   background-color: #bc9b73;
-  color: white;
+  color: #ffffff;
   font-family: "DM Sans", sans-serif;
   font-size: 16px;
   border: none;
-  border-radius: 30px;
   cursor: pointer;
   transition: background 0.3s ease;
-}
-
-.contact-button:hover {
-  background-color: #a4815f;
+  margin-top: 40px;
+  padding: 14px 35px 14px 35px;
+  font-weight: 500;
+  border-radius: 50rem 50rem 50rem 50rem;
 }
 
 .arrow {
   margin-left: 10px;
   font-weight: bold;
+}
+
+@media (max-width:1024px) {
+  .heading{
+    font-size: 50px;
+  }
+  .blueprint-image{
+    max-width:720px;
+  }
+  .overlay1{
+    margin-bottom: 300px;
+  }
+  .blueprint-image {
+    top: 66%;
+  }
+  .contact-button {
+    padding: 10px 20px;
+  }
 }
