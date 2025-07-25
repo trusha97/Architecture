@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import "./BestService.css";
-import { Architect, Architectural, bestserviceimg, Landscape } from '../../Utils/images';
+import { Architect, Architectural, bestserviceimg, Landscape } from '../../utils/images';
 import { motion } from "framer-motion";
 import { useInView } from 'react-intersection-observer';
 

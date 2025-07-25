@@ -9,7 +9,7 @@ import {
   modern,
   thedesign,
   thespacegactur,
-} from '../../Utils/images';
+} from '../../utils/images';
 
 const VipCustomer = () => {
   return (

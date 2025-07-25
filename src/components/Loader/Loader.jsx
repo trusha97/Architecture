@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Loader.css';
-import { ic_header_logo } from '../../Utils/svg'; // Replace with your actual logo component or SVG
+import { ic_header_logo } from '../../utils/svg'; // Replace with your actual logo component or SVG
 
 const Loader = () => {
   const [showLoader, setShowLoader] = useState(true);

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css'
-import { facebook, instagram, linkdin, twitter } from '../../Utils/images';
+import { facebook, instagram, linkdin, twitter } from '../../utils/images';
 
 const Footer = () => {
   return (

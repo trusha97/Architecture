@@ -1,6 +1,6 @@
 import React from 'react';
 import './ProjectMind.css';
-import { projectmindimg } from '../../Utils/images';
+import { projectmindimg } from '../../utils/images';
 
 const ProjectMind = () => {
   return (

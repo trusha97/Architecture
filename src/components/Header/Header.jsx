@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ic_header_logo, } from '../../Utils/svg';
+import { ic_header_logo, } from '../../utils/svg';
 import './Header.css';
-import { callplus, downarrow } from '../../Utils/images';
+import { callplus, downarrow } from '../../utils/images';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
