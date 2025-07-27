@@ -19,7 +19,7 @@ import Architectural from "../assets/images/ser1.png";
 import Landscape from "../assets/images/ser2.png";
 import Architect from "../assets/images/ser3.png";
 import quite from "../assets/images/quite.png";
-import projectmindimg from "../assets/images/projectmindbg.webp";
+import projectimg from "../assets/images/projectmindbg.webp";
 import decorasion from "../assets/images/imgsection-1.webp";
 import teresh from "../assets/images/imgsection-2.webp";
 import ground from "../assets/images/imgsection-3.webp";
@@ -57,7 +57,7 @@ export {Architectural}
 export {Landscape}
 export {Architect}
 export {quite}
-export {projectmindimg}
+export {projectimg}
 export {decorasion}
 export {teresh}
 export {ground}
