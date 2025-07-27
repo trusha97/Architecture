@@ -107,10 +107,26 @@
   color: #bc9b73;
   margin: 0.5rem 0rem 0rem 0rem;
 }
+
 .main-insta-div {
   display: flex;
   justify-content: center;
   flex-direction: column;
   width: 20px;
   align-items: center;
+}
+
+@media (max-width:769px) {
+  .instagram-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width:424px) {
+  .instagram-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .container {
+    padding: 0 30px;
+  }
 }

@@ -10,14 +10,18 @@ const Banner = () => {
             style={{ backgroundImage: `url(${heroImage})` }}
         >
             <div className="banner-overlay">
-                <h1 className="banner-title">
-                    You Approach The Architecture
+                <h1 className="banner-title motion-text">
+                    {"You Approach The Architecture".split(" ").map((word, index) => (
+                        <span key={index} style={{ animationDelay: `${index * 0.2}s` }}>
+                            {word}&nbsp;
+                        </span>
+                    ))}
                 </h1>
 
                 <div className="box box-right">
                     <div className="circle-img" />
                     <div>
-                        <p className="box-title"> Our company Architect  Firm</p>
+                        <p className="box-title"> Our company Architect Firm</p>
                         <p className="box-sub">Watch the videos (2.40s)</p>
                     </div>
                 </div>
@@ -48,12 +52,11 @@ const Banner = () => {
                 <div className="box1 box-right">
                     <div className="circle-img1" />
                     <div className='banner-text-des'>
-                        <p className="box-title1">Let’s Build Something Great  Together</p>
+                        <p className="box-title1">Let’s Build Something Great Together</p>
                     </div>
                 </div>
-
-
             </div>
+
             <div className='year-main-div'>
                 <div className='year-container'>
                     <div className='yeartwofive'>
