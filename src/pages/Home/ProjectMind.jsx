@@ -1,5 +1,6 @@
 import React from 'react';
 import './ProjectMind.css';
+
 import { projectimg } from '../../utils/images';
 
 const ProjectMind = () => {
