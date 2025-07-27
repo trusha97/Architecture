@@ -5,16 +5,20 @@ import WhatClientSay from './Home/WhatClientSay'
 import ProjectMind from './Home/ProjectMind'
 import ImageProject from './Home/ImageProject'
 import Banner from './Home/Banner'
+import About from './Home/About'
+import Portfolio from './Home/Portfolio'
 
 const Home = () => {
   return (
     <>
     <Banner/>
+    {/* <About/> */}
     <VipCustomer/>
+    {/* <BestService/> */}
+    {/* <Portfolio/> */}
+    <WhatClientSay/>
     <ImageProject/>
     <ProjectMind/>
-    <BestService/>
-    <WhatClientSay/>
     </>
   )
 }

@@ -26,6 +26,13 @@ import ground from "../assets/images/imgsection-3.webp";
 import dom from "../assets/images/imgsection-4.webp";
 import img_insta from "../assets/images/image-instagram.png";
 import gaimg from "../assets/images/GA.png";
+import about from "../assets/images/about1.webp";
+import favgold from "../assets/images/favgold.png";
+import line from "../assets/images/line.png";
+import Signeture from "../assets/svg/Signeture.svg";
+import ab_icon from "../assets/images/ab_icon.webp";
+import portfolio_image_one from "../assets/images/portfolio1.webp";
+import portfolio_image_two from "../assets/images/portfolio2.webp";
 
 
 
@@ -57,3 +64,10 @@ export {ground}
 export {dom}
 export {img_insta}
 export {gaimg}
+export {about}
+export {favgold}
+export {line}
+export {Signeture}
+export {ab_icon}
+export {portfolio_image_one}
+export {portfolio_image_two}
